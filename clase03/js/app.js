@@ -32,7 +32,7 @@ console.log(myDom);
 
 const itemVideos = myDom.getElementById("video");
 
-const myVideo = '<li> <iframe width="1663" height="762" src="https://www.youtube.com/embed/xegy_hW-Mfk?list=PL9LIrEiirmm9kpKuLAjXeu7QVXW8cxut6" title="Clase 04 - Codo a Codo 4 0 Full stack React 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </li>'
+const myVideo = '<li> <iframe src="https://www.youtube.com/embed/xegy_hW-Mfk?list=PL9LIrEiirmm9kpKuLAjXeu7QVXW8cxut6" title="Clase 04 - Codo a Codo 4 0 Full stack React 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </li>'
 
 let cant_elements = parseInt(prompt("Ingrese la cantidad de elementos que quiere ver"));
 
