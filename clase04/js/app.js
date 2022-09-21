@@ -140,14 +140,12 @@ const parrafo = document.getElementById("clase04");
 
 /* muestro en el front */
 
-parrafo.innerHTML = myVideo;
-/*'${mostrarEnfront(myVideo)}${mostrarEnfront(myAudio)}${mostrarEnfront(myButton)}${mostrarEnfront(myLista)}';*/
+parrafo.innerHTML = `<div class="alert-link">Video:</div>${mostrarEnfront(myVideo)}<div class="alert-link">Audio:</div>${mostrarEnfront(myAudio)}<div class="alert-link">Botón:</div>${mostrarEnfront(myButton)}<div class="alert-link">Lista:</div>${mostrarEnfront(myLista)}`;
 
-/*
+
+
 function mostrarEnfront(objeto) {
     result = '';
-    for (let clave in objeto) result += '${clave}: ${objeto[clave]}\n'
+    for (let clave in objeto) result += `${clave}: ${objeto[clave]}\n`
     return result;
 }
-*/
-
