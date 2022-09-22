@@ -28,6 +28,9 @@
 
 import Button from "./components/button.js";
 import Video from "./components/video.js";
+import Lista from "./components/lista.js";
+import Audio from "./components/audio.js";
+import Input from "./components/input.js";
 
 
 const myApp = document.getElementById("myApp");
@@ -42,6 +45,26 @@ myApp.innerHTML = myButton.render();
 /* hasta aca con todo esto muestro un elemtno en pantalla*/
 
 
-let myVideo = new Video("https://youtu.be/eBkKPtPEGSI");
+let myVideo = new Video("https://www.w3schools.com/tags/movie.mp4", 320,240,"none");
 
 myApp.innerHTML += myVideo.render();
+
+//lista
+
+let myLista = new Lista(["item 1","item 2","item 3","item 4"], "list-group-item" );
+
+myApp.innerHTML += myLista.render();
+
+//audio
+
+let myAudio = new Audio("https://www.w3schools.com/html/horse.ogg", "none");
+
+myApp.innerHTML += myAudio.render();
+
+
+//input
+
+let myInput = new Input();
+
+myApp.innerHTML += myInput.render();
+myInput.evaluate();

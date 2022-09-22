@@ -8,9 +8,9 @@ export default class Video{
     /*defino un metodo*/
     render(){
 
-        let myHTML = `<video class=${this.css_class}>
-        <source src=${this.url} type="video/mp4">  </source>            
-        </video>`
+        let myHTML = `<video class=${this.css_class} >
+                      <source src=${this.url} type="video/mp4">            
+                      </video>`;
 
         return myHTML;
     }
