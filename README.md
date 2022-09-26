@@ -22,3 +22,11 @@ opcional
 crear el objeto/class/componente input que si el ingreso de datos es incorrecto se ponga rojo sino amarillo y un check al costado.
 
 - input
+
+ejercicio clase 6:
+
+crear una app en react
+recordar el gitignore
+ejecutar el comando npm start
+modificar el archivo app.js agregando alguna etiqueta html.
+opcional: migrar/mover lo que veniamos haciendo.
